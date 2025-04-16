@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zaaf Perfumes</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="flex justify-between items-center p-6 shadow-md">
+    <h1 class="text-2xl font-bold">Zaaf</h1>
+    <nav>
+      <ul class="flex gap-6">
+        <li><a href="#shop" class="hover:text-gray-600">Shop</a></li>
+        <li><a href="#about" class="hover:text-gray-600">About</a></li>
+        <li><a href="#contact" class="hover:text-gray-600">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-[url('https://images.unsplash.com/photo-1518446944028-71f49faebaef')] bg-cover bg-center h-[80vh] flex items-center justify-center text-white">
+    <div class="text-center bg-black bg-opacity-50 p-10 rounded">
+      <h2 class="text-4xl font-bold mb-4">Discover Your Signature Scent</h2>
+      <p class="text-lg mb-6">Luxury handcrafted perfumes by Zaaf</p>
+      <a href="#shop" class="bg-white text-black px-6 py-2 rounded-full font-semibold hover:bg-gray-200">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section id="shop" class="py-16 px-6">
+    <h3 class="text-3xl font-semibold text-center mb-12">Our Bestsellers</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <!-- Product 1 -->
+      <div class="border p-6 rounded shadow-sm text-center">
+        <img src="https://images.unsplash.com/photo-1600185365999-12af5f507ea4" class="h-48 w-full object-cover rounded mb-4" alt="Ember Veil">
+        <h4 class="text-xl font-bold mb-2">Ember Veil</h4>
+        <p class="text-sm text-gray-600 mb-4">Floral fire with a whisper of mystery</p>
+        <button class="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Buy ₹1,299</button>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="border p-6 rounded shadow-sm text-center">
+        <img src="https://images.unsplash.com/photo-1563201517-e83e6a2e0b0e" class="h-48 w-full object-cover rounded mb-4" alt="Leviathan">
+        <h4 class="text-xl font-bold mb-2">Leviathan</h4>
+        <p class="text-sm text-gray-600 mb-4">Bold. Addictive. Unforgettable.</p>
+        <button class="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Buy ₹1,499</button>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="border p-6 rounded shadow-sm text-center">
+        <img src="https://images.unsplash.com/photo-1596464716121-b9b2b77c5534" class="h-48 w-full object-cover rounded mb-4" alt="Custom Blends">
+        <h4 class="text-xl font-bold mb-2">Custom Blends</h4>
+        <p class="text-sm text-gray-600 mb-4">Craft your own signature fragrance</p>
+        <button class="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Explore</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-gray-100 py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-6">About Zaaf</h3>
+      <p class="text-gray-700">Zaaf is a premium perfume house born in India, blending exotic ingredients with modern elegance. Every bottle is a story, a vibe, a lifestyle. Created for the bold and the unforgettable.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-6">
+    <div class="max-w-xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-6">Get in Touch</h3>
+      <p class="text-gray-600 mb-4">For custom orders, collaborations or bulk gifting.</p>
+      <a href="mailto:zaafperfumes@gmail.com" class="text-blue-600 font-medium">zaafperfumes@gmail.com</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center p-6">
+    <p>&copy; 2025 Zaaf Perfumes. All rights reserved.</p>
+  </footer>
+</body>
+</html>
